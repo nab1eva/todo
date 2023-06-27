@@ -1,0 +1,64 @@
+.dark {
+  background-color: black !important;
+  color: white !important;
+  border-color: wheat;
+}
+
+
+.toggle {
+  border-radius: 5px;
+  border: 1px solid;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.todo {
+  border-radius: 30px;
+  height: 50px;
+}
+
+.btnn {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+.input {
+  border-radius: 20px;
+}
+
+.switch {
+  margin: 10px;
+  margin-left: 30px !important;
+  display: flex;
+}
+
+.switch input {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  width: 40px;
+  padding: 2.5px;
+  background-color: green;
+  border-radius: 15px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.switch input::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 12.5px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.switch input:checked::after {
+  margin-left: 20px;
+  background-color: black;
+}
+
+.switch input:checked {
+  background-color: white;
+}
