@@ -4,7 +4,6 @@
   border-color: wheat;
 }
 
-
 .toggle {
   border-radius: 5px;
   border: 1px solid;
@@ -21,6 +20,26 @@
 .btnn {
   border-top-right-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
+}
+
+.inputGroup {
+  width: 90%;
+}
+@media (min-width: 600px) {
+  .inputGroup {
+    width: 80%;
+  }
+}
+@media (min-width: 800px) {
+  .inputGroup {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .inputGroup {
+    width: 50%;
+  }
 }
 .input {
   border-radius: 20px;

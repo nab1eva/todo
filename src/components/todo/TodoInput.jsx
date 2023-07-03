@@ -16,7 +16,7 @@ export class TodoInput extends Component {
     this.inputRef.current && (this.inputRef.current.value = todo);
     return (
       <Form onSubmit={submit}>
-        <InputGroup className="my-3 w-50 m-auto">
+        <InputGroup className="my-3 inputGroup m-auto">
           <Form.Control
             ref={this.inputRef}
             placeholder="..."
