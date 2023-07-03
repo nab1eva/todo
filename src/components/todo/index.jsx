@@ -15,7 +15,7 @@ export class Todo extends Component {
       {
         id: 0,
         title: "bomdod",
-        done: true,
+        done: false,
       },
       {
         id: 1,
